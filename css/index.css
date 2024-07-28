@@ -10,6 +10,8 @@ body{
   height: auto;
   justify-content: center;
   display: flex;
+  outline: 1px dashed #FFF47B;
+    outline-offset: -10px;
 }
 
 .imageLogo {
@@ -23,6 +25,7 @@ body{
   background-color: #3D2D44;
   position: relative;
   width: 70%;
+  margin: 12px;
 
 }
  .button {
@@ -48,6 +51,8 @@ body{
 }
 
 .heroImage {
+  display:flex;
+  flex-direction: row;
   background-color: lightblue;
   height: 500px;
   width: 100%;
@@ -57,5 +62,31 @@ body{
   background-color: #3D2D44;
   height: 500px;
   width: 100%;
+  outline: 1px dashed #FFF47B;
+    outline-offset: -10px;
+}
+
+.footer {
+  height: 90px;
+  background-color: #FFF47B;
+  outline: 1px dashed #3D2D44;
+  outline-offset: -10px;
+}
+
+.box{
+  display: flex;
+  height:100%;
+  width: 50%;
+}
+.rightSide {
+  background-color: #FFF47B;
+  outline: 1px dashed #3D2D44;
+  outline-offset: -10px;
+ 
+}
+.leftSide {
+  background-color: #3D2D44;
+    outline: 1px dashed #FFF47B;
+    outline-offset: -10px;
 }
 
